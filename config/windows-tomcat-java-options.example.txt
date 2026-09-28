@@ -1,0 +1,12 @@
+Windows Tomcat (tomcat10w.exe)
+================================
+
+In Tomcat10w.exe -> Java -> Java Options, add one option per line:
+
+-DFILEMANAGER_ADMIN_USERNAME=admin
+-DFILEMANAGER_ADMIN_PASSWORD=CHANGE_ME
+-DFILEMANAGER_ROOTS=C:\\FileManagerData
+-DFILEMANAGER_NATIVE_COMMANDS=false
+
+Java system properties take precedence over environment variables.
+Do not commit your real password to GitHub.

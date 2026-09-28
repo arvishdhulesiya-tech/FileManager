@@ -1,0 +1,6 @@
+#!/bin/sh
+# Copy/adapt this to TOMCAT_HOME/bin/setenv.sh. Do not commit real secrets.
+export FILEMANAGER_ADMIN_USERNAME=admin
+export FILEMANAGER_ADMIN_PASSWORD='CHANGE_ME'
+export FILEMANAGER_ROOTS='/data'
+export FILEMANAGER_NATIVE_COMMANDS=false

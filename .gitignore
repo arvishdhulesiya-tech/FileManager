@@ -1,0 +1,28 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Node
+node_modules/
+frontend/.node/
+frontend/dist/
+npm-debug.log*
+
+# Java / Maven
+backend/target/
+*.class
+*.war
+*.log
+
+# Local configuration / secrets
+.env
+*.env
+!config/filemanager.env.example
+
+# Temporary backups from development
+* - Copy.*
+*.bk
+backend/src/main/java/com/filemanager/api/*.zip
